@@ -14,13 +14,13 @@ export default function AppComponent() {
   return (
     <div className="container h-100 app">
       <section className="vh-100">
-        <Row className="align-items-center">
-          <Header handleSectionChange={handleSectionChange} />
+        <Row className="align-items-center" style={{ paddingLeft: "40px" }}>
+          <Header handleSectionChange={handleSectionChange} selectedSection={selectedSection}/>
           <Content selectedSection={selectedSection} />
         </Row>
       </section>
-      <section className="vh-100" style={{ paddingTop: "5%" }}>
-        <h1 style={{marginBottom : "25px"}}>Todos los proyectos</h1>
+      <section id="proyectos" className="vh-100" style={{ paddingTop: "5%" }}>
+        <h1 style={{ marginBottom: "25px" }}>Todos los proyectos</h1>
         <Proyectos />
       </section>
     </div>

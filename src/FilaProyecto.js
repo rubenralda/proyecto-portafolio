@@ -1,6 +1,6 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
 import * as React from "react";
 import Badge from "react-bootstrap/Badge";
-import { Button } from "@mui/material";
 
 export default function MultiActionAreaCard({
   year,
@@ -16,24 +16,40 @@ export default function MultiActionAreaCard({
       <td>{descripcion}</td>
       <td>
         {tags.map((valor, index) => (
-          <Badge bg="" key={index} style={{marginRight : "5px", backgroundColor :"#E7E8AD", color: "black"}}>
+          <Badge
+            bg=""
+            key={index}
+            style={{
+              marginRight: "5px",
+              backgroundColor: "#E7E8AD",
+              color: "black",
+            }}
+          >
             {valor}
           </Badge>
         ))}
       </td>
       <td>
-        <Button
+        {/**
+         * <Button
           size="small"
           color="primary"
           onClick={() => abrirEnlace(repositorio)}
         >
           Ver repositorio
         </Button>
+         */}
+
+        <a
+          href={repositorio}
+          rel="noreferrer"
+          target="_blank"
+          style={{ color: "#D1D1D1", textDecoration: "none" }}
+        >
+          GitHub
+          <GitHubIcon sx={{ color: "#D1D1D1", paddingLeft: "5px" }} />
+        </a>
       </td>
     </>
   );
-}
-
-function abrirEnlace(enlace) {
-  window.open(enlace, "_blank");
 }

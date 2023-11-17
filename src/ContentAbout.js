@@ -3,10 +3,11 @@ import React from "react";
 export default function BoxBasic() {
   return (
     <p
+      className="content"
       style={{
         color: "#D1D1D1",
-        paddingBottom : "130px",
-        paddingRight : "130px",
+        paddingBottom: "130px",
+        paddingRight: "130px",
         lineHeight: "200%",
       }}
     >

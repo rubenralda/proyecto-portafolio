@@ -1,21 +1,19 @@
 import React from "react";
-import ListGroup from 'react-bootstrap/ListGroup';
+//import ListGroup from "react-bootstrap/ListGroup";
 
-const Navigation = ({ onSectionChange }) => {
+const Navigation = ({ handleSectionChange, selectedSection }) => {
   return (
-    <div className="navigation">
-      <ListGroup className="app" defaultActiveKey="about">
-        <ListGroup.Item onClick={() => onSectionChange("about")} eventKey="about" variant="dark">
-          Sobre mí
-        </ListGroup.Item>
-        <ListGroup.Item  onClick={() => onSectionChange("estudios")} eventKey="estudios" variant="dark">
-          Estudios
-        </ListGroup.Item>
-        <ListGroup.Item onClick={() => onSectionChange("proyectos")} eventKey="proyectos" variant="dark">
-          Proyectos
-        </ListGroup.Item>
-      </ListGroup>
-    </div>
+    <>
+      <nav className="navigation">
+        <ul>
+          <li onClick={() => handleSectionChange("about")} className={selectedSection === "about" ? "selected" : ""}>Sobre mí</li>
+          <li onClick={() => handleSectionChange("estudios")} className={selectedSection === "estudios" ? "selected" : ""}>Estudios</li>
+          <li>
+            <a href="#proyectos">Proyectos</a>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 
