@@ -21,7 +21,7 @@ function SocialMedia() {
         <GitHubIcon sx={{ color: "#D1D1D1" }} />
       </a>
       <a
-        href="https://linkedin.com/in/rubén-alejandro-ralda-mejia-8499a6240"
+        href="www.linkedin.com/in/rubén-ralda"
         rel="noreferrer"
         target="_blank"
       >
