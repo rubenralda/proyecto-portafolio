@@ -13,13 +13,13 @@ export default function BoxBasic() {
         Ingeniería en Ciencias y Sistemas
       </p>
       <p style={{ marginTop: "1px", marginBottom: "5px" }}>
-        2021 - Actualidad <br></br>Sexto semestre concluido
+        2021 - Actualidad <br></br>Sexto semestre completado.
       </p>
       <p style={{ marginTop: "30px", marginBottom: "5px", fontSize: "30px" }}>
         <b>Instituto Tecnológico de Computación</b>
       </p>
       <p style={{ marginTop: "1px", marginBottom: "5px", fontSize: "20px" }}>
-        Bachillerato en computación con orientación científica
+        Bachillerato en Computación con Orientación Científica
       </p>
       <p style={{ marginTop: "1px", marginBottom: "5px" }}>2019 - 2020</p>
     </div>

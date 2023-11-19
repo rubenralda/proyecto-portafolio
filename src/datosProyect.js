@@ -2,7 +2,7 @@ export let datos = [
     {
         year : "2023",
         title : "Compilador para el lenguaje T-Swift",
-        descripcion : "Recibe una entrada de código fuente T-Swift generada por parte del usuario para generar una salida que será una representación intermedia en formato de código de tres direcciones, este formato utiliza sentencias del lenguaje C para su posterior ejecución.",
+        descripcion : "T-Swift es un lenguaje de programación de alto nivel basado en Swift. Recibe una entrada de código fuente T-Swift generada por parte del usuario y genera una salida en formato de código de tres direcciones. Este formato intermedio utiliza sentencias del lenguaje C para su posterior ejecución.",
         repositorio : "https://github.com/rubenralda/OLC2_proyecto2.git",
         tags : ["Go", "ANTLR4", "Fiber", "JS", "HTML", "CSS"],
         curso : "Organización de lenguajes y compiladores 2",
@@ -10,7 +10,7 @@ export let datos = [
     {
         year : "2023",
         title : "Aplicación de comandos",
-        descripcion : "Cuenta con un cliente para ingresar los comandos, se alojó en un bucket S3 y consumía una API alojada en una EC2 que interpretaba los comandos de los cuales se simulaban en archivos binarios que representan los discos.",
+        descripcion : "Se implementó un sistema de administración de discos virtuales simulados por archivos binarios. El FrontEnd, alojado en un bucket S3, permitía a los usuarios ingresar comandos de administración de discos virtuales, como mkdisk o fdisk. Los comandos se enviaban a la API Rest, alojada en una instancia EC2, que los interpretaba y realizaba los cambios necesarios en los archivos binarios que simulaban el disco.",
         repositorio : "https://github.com/rubenralda/MIA_Proyecto_2.git",
         tags : ["Python", "PLY", "Flask", "JS", "HTML", "CSS", "AWS"],
         curso : "Manejo e implementación de archivos",
@@ -18,7 +18,7 @@ export let datos = [
     {
         year : "2023",
         title : "Intéprete para el lenguaje T-Swift",
-        descripcion : "T-Swift es un lenguaje basado en el popular lenguaje de programación Swift, la aplicación consiste en este intérprete diseñado con el patrón visitor y el patrón intérprete, ejecuta las intrucciones y muestra la salida del algoritmo.",
+        descripcion : "T-Swift es un lenguaje de programación de alto nivel basado en Swift. La aplicación consiste en un intérprete diseñado con los patrones de diseño visitante e intérprete. El intérprete ejecuta las instrucciones del código de entrada en el BackEnd y muestra la salida en el FrontEnd.",
         repositorio : "https://github.com/rubenralda/OLC2_Proyecto1_202111835.git",
         tags : ["Go", "ANTLR4", "Fiber", "JS", "HTML", "CSS"],
         curso : "Organización de lenguajes y compiladores 2",
@@ -42,7 +42,7 @@ export let datos = [
     {
         year : "2023",
         title : "TypeWise",
-        descripcion : "Intérprete para un nuevo lenguaje TypeWise utilizando el patrón intérprete para el lado del BackEnd y un editor sencillo en el FrontEnd.",
+        descripcion : "Intérprete para un nuevo lenguaje de programación nombrado TypeWise, utilizando el patrón intérprete para el BackEnd y un editor sencillo para el FrontEnd.",
         repositorio : "https://github.com/rubenralda/OLC_Proyecto2_202111835.git",
         tags : ["JavaScript", "Jison", "Node.js", "Express", "HTML", "CSS"],
         curso : "Organización de Lenguajes y compiladores 1",
@@ -50,7 +50,7 @@ export let datos = [
     {
         year : "2023",
         title : "GoDrive",
-        descripcion : "Fase 1: Implementación de estructuras de datos lineales para guardar la información de estudiantes. Fase 2: Implementación de un árbol AVL, árbol N-ario para crear, eliminar y subir archivos además de una matriz Dispersa para guardar los permisos de archivos por usuario. Fase 3: Cambio de almacenamiento de usuarios a una tabla Hash y un nuevo sistema de mensajería simulando un blockchain.",
+        descripcion : "Fase 1: Implementación de estructuras de datos lineales, como listas y pilas, para guardar la información de estudiantes. Fase 2: Implementación de un árbol AVL, un árbol N-ario y una matriz dispersa para crear, eliminar y subir archivos, así como para guardar los permisos de archivos por usuario. Fase 3: Cambio de almacenamiento de usuarios a una tabla hash y desarrollo de un nuevo sistema de mensajería que simula un blockchain.",
         repositorio : "https://github.com/rubenralda/EDD_1S2023_PY_202111835.git",
         tags : ["Go", "JavaScript", "HTML", "CSS"],
         curso : "Estructuras de Datos",
@@ -58,15 +58,15 @@ export let datos = [
     {
         year : "2023",
         title : "EXREGAN",
-        descripcion : "Intérprete de Expresiones Regulares en notación polaca capaz de realizar el Método del Árbol y el Método de Thompson mostrando los reportes del procedimiento y pudiendo verificar entradas del scanner generado.",
+        descripcion : "Intérprete de Expresiones Regulares en notación polaca que realiza su Método del Árbol y Método de Thompson. Genera reportes del paso a paso y puede verificar entradas del scanner generado.",
         repositorio : "https://github.com/rubenralda/OLC_Proyecto1_202111835.git",
         tags : ["Jflex", "Cup", "JAVA"],
         curso : "Organización de Lenguajes y compiladores 1",
     },
     {
         year : "2022",
-        title : "Intérprete creado con autómata de pila y fínito determinístico",
-        descripcion : "Diseño y creación de páginas web estáticas de una forma sencilla. Se generá su traducción a HTML y CSS, en caso no exista ningún error en la compilación del código.",
+        title : "Diseño y creación de páginas web estáticas",
+        descripcion : "Intérprete basado en un autómata de pila y un autómata fínito determinístico de un lenguaje creado para el proyecto. Se generá su traducción a HTML y CSS, en caso no exista ningún error léxico o sintáctico del código.",
         repositorio : "https://github.com/rubenralda/LFP_Proyecto2_202111835.git",
         tags : ["Tkinter", "Python"],
         curso : "Lenguajes formales y de programación",
@@ -74,7 +74,7 @@ export let datos = [
     {
         year : "2022",
         title : "Analizador léxico apartir de un AFD",
-        descripcion : "Lectura de código fuente capaz de identificar un lenguaje dado, identificando los errores léxicos y ejecutando las instrucciones correspondientes.",
+        descripcion : "Lectura de código fuente capaz de identificar un lenguaje creado parecido al marcado de etiquetas, identificando los errores léxicos e interpretando las instrucciones de entrada.",
         repositorio : "https://github.com/rubenralda/LFP_Proyecto1_202111835.git",
         tags : ["Tkinter", "Python"],
         curso : "Lenguajes formales y de programación",
@@ -98,9 +98,9 @@ export let datos = [
     {
         year : "2019",
         title : "Mi biblioteca",
-        descripcion : "CRUD de una biblioteca conectada a una base de datos en Mysql con PHP",
+        descripcion : "El sistema permitirá a los usuarios crear, leer, actualizar y eliminar prestamos de la biblioteca. La base de datos MySQL almacenará los datos de los libros, como su nombre y categoría así como la información del préstamo.",
         repositorio : "https://github.com/rubenralda/Ejercicios_PHP.git",
-        tags : ["PHP", "phpmyAdmin", "HTML", "Bootstrap", "MySql", "XAMPP"],
+        tags : ["PHP", "phpmyAdmin", "HTML", "Bootstrap", "MySQL", "XAMPP"],
         curso : "Programación colegio ITC",
     },
 ]
