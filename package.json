@@ -1,7 +1,7 @@
 {
   "name": "portafolio",
   "version": "0.1.0",
-  "homepage": "https://rubenralda.github.io/proyecto-portafolio",
+  "homepage": "https://rubenralda.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
